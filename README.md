@@ -1,7 +1,13 @@
 ### Next App
 
 ```sh
+winget search nvm
+winget install CoreyButler.NVMforWindo
+nvm install 18
 
+```
+
+```sh
 npx create-next-app@14 home-away
 ```
 

@@ -17,7 +17,7 @@ function DefaultInput({
   placeholder,
 }: DefaultInputProps) {
   return (
-    <div className="mb-2">
+    <div className="mb-2 w-full">
       <Label htmlFor={name} className="capitalize">
         {label || name}
       </Label>
